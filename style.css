@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  /* background: linear-gradient(135deg, #153677, #4e085f); */
+  padding: 10px;
+
+  background: hsla(11, 82%, 87%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(11, 82%, 87%, 1) 0%,
+    hsla(299, 85%, 90%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(11, 82%, 87%, 1) 0%,
+    hsla(299, 85%, 90%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(11, 82%, 87%, 1) 0%,
+    hsla(299, 85%, 90%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F9CDC3", endColorstr="#FACEFB", GradientType=1 );
+}
